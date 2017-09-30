@@ -13,6 +13,8 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+    <link rel="icon" href="img/as.png" type="image/icon">
     <title>Login en PHP</title>
 
     <link rel="stylesheet" href="css/bootstrap.min.css">

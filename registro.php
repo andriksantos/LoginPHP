@@ -1,13 +1,5 @@
 <?php
 
-  /*
-    En ocasiones el usuario puede volver al login
-    aun si ya existe una sesion iniciada, lo correcto
-    es no mostrar otra ves el login sino redireccionarlo
-    a su pagina principal mientras exista una sesion entonces
-    creamos un archivo que controle el redireccionamiento
-  */
-
   session_start();
 
   // isset verifica si existe una variable o eso creo xd
@@ -22,22 +14,20 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+    <link rel="icon" href="img/as.png" type="image/icon">
     <title>Login en PHP</title>
 
-    <!-- Importamos los estilos de Bootstrap -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- Font Awesome: para los iconos -->
     <link rel="stylesheet" href="css/font-awesome.min.css">
-    <!-- Sweet Alert: alertas JavaScript presentables para el usuario (más bonitas que el alert) -->
     <link rel="stylesheet" href="css/sweetalert.css">
-    <!-- Estilos personalizados: archivo personalizado 100% real no feik -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/arsm.css">
 
   </head>
   <body>
      <nav class="navbar navbar-inverse">
   <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
@@ -48,10 +38,9 @@
       <a class="navbar-brand" href="index.php">Andrick Santos</a>
     </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       
-      
+  
       <ul class="nav navbar-nav navbar-right">
         <li><a href="index.php">Inicio</a></li>
         <li class="dropdown">
@@ -69,19 +58,10 @@
   </div><!-- /.container-fluid -->
 </nav>
 
-
-    <!--
-      Las clases que utilizo en los divs son propias de Bootstrap
-      si no tienes conocimiento de este framework puedes consultar la documentacion en
-      https://v4-alpha.getbootstrap.com/getting-started/introduction/
-    -->
-
-
     <!-- Formulario Login -->
     <div class="container">
       <div class="row">
         <div class="col-xs-12 col-md-4 col-md-offset-4">
-          <!-- Margen superior (css personalizado )-->
           <div class="spacing-1"></div>
 
           <form id="formulario_registro">
@@ -160,10 +140,7 @@
 <br>
 <br>
 <br>
-<br>
 
-<br>
-<br>
 <br>
 <br>
     <footer>
