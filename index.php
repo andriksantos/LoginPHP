@@ -47,7 +47,7 @@
           <ul class="dropdown-menu">
             <li><a href="https://andricksantos.github.io/" target="_blank">WebSite</a></li>
             <li><a href="https://github.com/andricksantos" target="_blank">Github</a></li>
-            <li><a href="mailto:andricksantos1@gmaill.com" target="_blank">Email</a></li>
+            <li><a href="mailto:andricksantos1@gmail.com" target="_blank">Email</a></li>
             <li role="separator" class="divider"></li>
             <li><a href="#" class="disable center">ARSM</a></li>
           </ul>
